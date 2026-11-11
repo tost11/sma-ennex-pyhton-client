@@ -206,7 +206,7 @@ Each example is a complete, runnable script with detailed comments.
 The library uses OAuth2 with PKCE (Proof Key for Code Exchange) for secure authentication. All authentication is handled automatically:
 
 1. On first API call, the library authenticates using your credentials
-2. Access tokens are valid for 5 minutes
+2. Access tokens are valid for 5 minutes (not really sure)
 3. Tokens are automatically refreshed 30 seconds before expiration
 4. If token refresh fails, the library re-authenticates automatically
 
@@ -279,8 +279,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For issues and feature requests, please open an issue on the project repository.
-
-## Acknowledgments
-
-- SMA Solar Technology AG for the Sunny Portal platform
-- The Python community for excellent libraries
